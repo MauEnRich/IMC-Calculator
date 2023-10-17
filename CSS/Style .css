@@ -7,6 +7,18 @@ body{
     font-family: 'Overpass', sans-serif;
   }
 
+ 
+  .Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400px;
+  }
+
+  .Logo img{
+    margin-left: -3%;
+  }
+
   .Contenedor{
     display: flex;
     align-items: center;
@@ -14,18 +26,45 @@ body{
     margin-top: 100px;
   }
 
+  .text{
+    margin-top: 500px;
+    color: gray;
+  }
+
   .Position{
-    width: 60%;
+    width: 70%;
+    text-align: justify;
+    font-size: 20px;
     color: #ffffff;
   }
 
+  .Image{
+    width: 400px;
+    height: 300px;
+  }
 
+  .Image2{
+  margin-top: 30px;
+  margin-left:6.5%;
+ 
+  }
+
+  .text2{
+    text-align: center;
+  }
+
+  .Position1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  }
 
   .Position2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 200px;
   }
   
   .Cal1{
@@ -86,4 +125,10 @@ body{
    border-radius: 30px;
   }
 
+  footer{
+    text-align: center;
+    margin-top:100px;
+    margin-bottom: 100px;
+    color: white;
+  }
  
