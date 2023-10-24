@@ -116,6 +116,7 @@ body{
   
   #resultado {
     transform : translateY(50%);
+    text-align: center;
   }
   
   img{
